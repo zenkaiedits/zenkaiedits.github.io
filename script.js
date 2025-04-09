@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Thank for UI dandadan',
                     thumbnail: 'https://i.ytimg.com/vi/QiV3UpJb3sk/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '505',
+                    views: '508',
                     date: '16 Mar 2025',
                     type: 'script'
                 },
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Kobo kanaeru - Minecraft moment',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '0',
+                    views: '14',
                     date: '16 Mar 2025',
                     type: 'gaming'
                 },
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Kaela Kovalskia',
                     thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '14',
+                    views: '1,5k',
                     date: '9 Apr 2025',
                     type: 'gaming'
                 },
