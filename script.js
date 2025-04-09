@@ -181,7 +181,7 @@ function onPlayerStateChange(event) {
 const whatsappBtn = document.getElementById('whatsapp-order');
 
 function handleWhatsappOrder() {
-    const phoneNumber = "081937194823"; // Your number
+    const phoneNumber = "+6281937194823"; // Your number
 
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
