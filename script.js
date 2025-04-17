@@ -41,10 +41,19 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: '8cY2IErCRYE',
+                    title: 'Anya and Marin',
+                    thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
+                    duration: '00.34',
+                    views: '0',
+                    date: '18 Mar 2025',
+                    type: 'gaming'
+                },
+                {
                     id: 'QiV3UpJb3sk',
                     title: 'Thank for UI dandadan',
                     thumbnail: 'https://i.ytimg.com/vi/QiV3UpJb3sk/maxresdefault.jpg',
-                    duration: '00.09',
+                    duration: '00.46',
                     views: '508',
                     date: '16 Mar 2025',
                     type: 'script'
@@ -53,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     id: 'scmAKJSLf2o',
                     title: 'Kobo kanaeru - Minecraft moment',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
-                    duration: '00.09',
+                    duration: '00.26',
                     views: '14',
                     date: '16 Mar 2025',
                     type: 'gaming'
@@ -62,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     id: 'q_OuImZgKTQ',
                     title: 'Kaela Kovalskia',
                     thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
-                    duration: '00.09',
+                    duration: '00.18',
                     views: '1,5k',
                     date: '9 Apr 2025',
                     type: 'gaming'
@@ -72,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'egg - linga guli guli (Slowed)',
                     thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '2k',
+                    views: '2,1k',
                     date: '4 Apr 2025',
                     type: 'other'
                 },
