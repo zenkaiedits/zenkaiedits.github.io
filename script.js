@@ -41,12 +41,12 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
-                    id: '8cY2IErCRYE',
+                    id: 'CBhxh8DQr8A',
                     title: 'Anya and Marin',
-                    thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/CBhxh8DQr8A/maxresdefault.jpg',
                     duration: '00.34',
-                    views: '0',
-                    date: '18 Mar 2025',
+                    views: '3',
+                    date: '19 Mar 2025',
                     type: 'gaming'
                 },
                 {
