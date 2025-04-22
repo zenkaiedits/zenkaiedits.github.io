@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         navigate.addEventListener('click', () => {
             const info = document.querySelector(".hidden-info")
             message = navigate.getAttribute("data-filter")
-            console.log(message)
             info.style.display = "block"
         })
     })
@@ -41,19 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
-                    id: 'CBhxh8DQr8A',
-                    title: 'Anya and Marin',
-                    thumbnail: 'https://i.ytimg.com/vi/CBhxh8DQr8A/maxresdefault.jpg',
-                    duration: '00.34',
-                    views: '3',
-                    date: '19 Mar 2025',
-                    type: 'gaming'
-                },
-                {
                     id: 'QiV3UpJb3sk',
                     title: 'Thank for UI dandadan',
                     thumbnail: 'https://i.ytimg.com/vi/QiV3UpJb3sk/maxresdefault.jpg',
-                    duration: '00.46',
+                    duration: '00.09',
                     views: '508',
                     date: '16 Mar 2025',
                     type: 'script'
@@ -62,8 +52,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     id: 'scmAKJSLf2o',
                     title: 'Kobo kanaeru - Minecraft moment',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
-                    duration: '00.26',
-                    views: '14',
+                    duration: '00.09',
+                    views: '17',
                     date: '16 Mar 2025',
                     type: 'gaming'
                 },
@@ -71,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     id: 'q_OuImZgKTQ',
                     title: 'Kaela Kovalskia',
                     thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
-                    duration: '00.18',
+                    duration: '00.09',
                     views: '1,5k',
                     date: '9 Apr 2025',
                     type: 'gaming'
@@ -81,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'egg - linga guli guli (Slowed)',
                     thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '2,1k',
+                    views: '2k',
                     date: '4 Apr 2025',
                     type: 'other'
                 },
@@ -161,8 +151,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-
-    
 });
 
 let players = [];
@@ -179,21 +167,25 @@ function onYouTubeIframeAPIReady() {
     });
 }
 
-function onPlayerReady(event) {
-    // Player siap digunakan
-}
+function onPlayerReady(event) {}
 
 function onPlayerStateChange(event) {
-    // Bisa ditambahkan logika ketika state player berubah
 }
 
 const whatsappBtn = document.getElementById('whatsapp-order');
+// const emailBtn = document.getElementById('email-order');
+// const xBtn = document.getElementById('x-order');
 
 function handleWhatsappOrder() {
-    const phoneNumber = "+6281937194823"; // Your number
+    // const phoneNumber = "081937194823";
+    // const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    // window.open(url, '_blank');
 
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+    window.open(message)
 }
 
 whatsappBtn.addEventListener('click', handleWhatsappOrder);
+
+// emailBtn.addEventListener('click', () =>  {
+//     window.open(`mailto:jasangeditsampit@anda.com?subject=Hello Zenkai👋&body=${encodeURIComponent(message)} \n // type what you need`)
+// })
