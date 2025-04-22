@@ -40,42 +40,50 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
-                    id: 'QiV3UpJb3sk',
-                    title: 'Thank for UI dandadan',
-                    thumbnail: 'https://i.ytimg.com/vi/QiV3UpJb3sk/maxresdefault.jpg',
-                    duration: '00.09',
-                    views: '508',
+                    id: 'qGLXEEhT43U',
+                    title: 'Takut Dosa Malah Pacaran #vtuber',
+                    thumbnail: '',
+                    duration: '00.46',
+                    views: '448',
                     date: '16 Mar 2025',
                     type: 'script'
                 },
                 {
+                    id: 'baVvQViX71Q',
+                    title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
+                    thumbnail: 'https://i.ytimg.com/vi/baVvQViX71Q/maxresdefault.jpg',
+                    duration: '00.34',
+                    views: '48',
+                    date: '22 Apr 2025',
+                    type: 'script'
+                },
+                {
+                    id: 'q_OuImZgKTQ',
+                    title: 'Game Horor? tapi gak bisa pake mouse harus typing - vtuber Kaela Kovalskia',
+                    thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
+                    duration: '00.09',
+                    views: '1,7k',
+                    date: '9 Apr 2025',
+                    type: 'gaming'
+                },
+                {
+                    id: 'BE7j4uN8FnM',
+                    title: 'Telur Joget - 2d Riging Animation on Davinci Resolve',
+                    thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/maxresdefault.jpg',
+                    duration: '00.09',
+                    views: '2,1k',
+                    date: '4 Apr 2025',
+                    type: 'other'
+                },
+                {
                     id: 'scmAKJSLf2o',
-                    title: 'Kobo kanaeru - Minecraft moment',
+                    title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR - Vtuber Kobo kanaeru',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
                     duration: '00.09',
                     views: '17',
                     date: '16 Mar 2025',
                     type: 'gaming'
                 },
-                {
-                    id: 'q_OuImZgKTQ',
-                    title: 'Kaela Kovalskia',
-                    thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
-                    duration: '00.09',
-                    views: '1,5k',
-                    date: '9 Apr 2025',
-                    type: 'gaming'
-                },
-                {
-                    id: 'BE7j4uN8FnM',
-                    title: 'egg - linga guli guli (Slowed)',
-                    thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/maxresdefault.jpg',
-                    duration: '00.09',
-                    views: '2k',
-                    date: '4 Apr 2025',
-                    type: 'other'
-                },
-                // Add more mock videos as needed
             ];
 
             renderPost(mockVideos);
