@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'qGLXEEhT43U',
                     title: 'Takut Dosa Malah Pacaran #vtuber',
-                    thumbnail: 'https://i.ytimg.com/vi/qGLXEEhT43U/hqdefault.jpg',
+                    thumbnail: 'https://img.youtube.com/vi/qGLXEEhT43U/hqdefault.jpg',
                     duration: '00.46',
                     views: '587',
                     date: '16 Mar 2025',
