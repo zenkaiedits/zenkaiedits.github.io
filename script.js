@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Takut Dosa Malah Pacaran #vtuber',
                     thumbnail: 'https://i.ytimg.com/vi/qGLXEEhT43U/hqdefault.jpg',
                     duration: '00.46',
-                    views: '448',
+                    views: '587',
                     date: '16 Mar 2025',
                     type: 'script'
                 },
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
                     thumbnail: 'https://i.ytimg.com/vi/baVvQViX71Q/hqdefault.jpg',
                     duration: '00.34',
-                    views: '48',
+                    views: '43',
                     date: '22 Apr 2025',
                     type: 'script'
                 },
@@ -80,12 +80,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR - Vtuber Kobo kanaeru',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '17',
+                    views: '25',
                     date: '16 Mar 2025',
                     type: 'gaming'
                 },
             ];
-
             renderPost(mockVideos);
         }, 1500);
     }
