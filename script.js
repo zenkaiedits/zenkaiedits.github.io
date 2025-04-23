@@ -40,22 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
-                    id: 'qGLXEEhT43U',
-                    title: 'Takut Dosa Malah Pacaran #vtuber',
-                    thumbnail: 'https://img.youtube.com/vi/qGLXEEhT43U/hqdefault.jpg',
-                    duration: '00.46',
-                    views: '587',
-                    date: '16 Mar 2025',
-                    type: 'script'
-                },
-                {
-                    id: 'baVvQViX71Q',
+                    id: '8cY2IErCRYE',
                     title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
-                    thumbnail: 'https://i.ytimg.com/vi/baVvQViX71Q/hqdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
                     duration: '00.34',
-                    views: '43',
+                    views: '898',
                     date: '22 Apr 2025',
-                    type: 'script'
+                    type: 'gaming'
                 },
                 {
                     id: 'q_OuImZgKTQ',
@@ -80,11 +71,21 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR - Vtuber Kobo kanaeru',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '25',
+                    views: '17',
                     date: '16 Mar 2025',
                     type: 'gaming'
                 },
+                {
+                    id: 'Aawfz6sOHBQ',
+                    title: 'Takut Dosa Malah Pacaran #vtuber',
+                    thumbnail: 'https://i.ytimg.com/vi/Aawfz6sOHBQ/maxresdefault.jpg',
+                    duration: '00.46',
+                    views: '448',
+                    date: '16 Mar 2025',
+                    type: 'script'
+                },
             ];
+
             renderPost(mockVideos);
         }, 1500);
     }
