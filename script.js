@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const mockVideos = [
                 {
                     id: '8cY2IErCRYE',
-                    title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
+                    title: 'Anya explaind Bijou how "Foot Fetish" works! | vtuber Koseki Bijou and Anya Melfisa',
                     thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
                     duration: '00.34',
                     views: '898',
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 {
                     id: 'q_OuImZgKTQ',
-                    title: 'Game Horor? tapi gak bisa pake mouse harus typing - vtuber Kaela Kovalskia',
+                    title: 'Horror Game? But NO Mouse Allowed – Typing Only! | VTuber Kaela Kovalskia',
                     thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
                     duration: '00.09',
                     views: '1,7k',
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 {
                     id: 'BE7j4uN8FnM',
-                    title: 'Telur Joget - 2d Riging Animation on Davinci Resolve',
+                    title: 'Telur Joget | 2d Riging Animation on Davinci Resolve',
                     thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/maxresdefault.jpg',
                     duration: '00.09',
                     views: '2,1k',
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 {
                     id: 'scmAKJSLf2o',
-                    title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR - Vtuber Kobo kanaeru',
+                    title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR | Vtuber Kobo kanaeru',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
                     duration: '00.09',
                     views: '17',
