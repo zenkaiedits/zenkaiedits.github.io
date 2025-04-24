@@ -248,13 +248,13 @@ body {
 
 .video-placeholder i {
     font-size: 50px;
-    color: #ff0000;
+    color: #ff4757;
     margin-bottom: 15px;
 }
 
 /* YouTube Brand Colors */
 .social-links .youtube:hover {
-    color: #ff0000;
+    color: #ff4757;
 }
 
 .social-links .instagram:hover {
@@ -274,7 +274,7 @@ body {
 .loading {
     border: 4px solid rgba(0,0,0,0.1);
     border-radius: 50%;
-    border-top: 4px solid #ff0000;
+    border-top: 4px solid #ff4757;
     width: 40px;
     height: 40px;
     animation: spin 1s linear infinite;
@@ -588,4 +588,19 @@ body {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 15px;
     }
+}
+
+#whatsapp-order {
+    background-color: #7289d9;
+    color: #fff;
+}
+
+#x-order {
+    background-color: #14171A;
+    color: #F5F8FA;
+}
+
+
+#whatsapp-order:hover, #x-order:hover {
+    background-color: #ff4757;
 }

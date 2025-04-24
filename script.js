@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
                     thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
                     duration: '00.34',
-                    views: '902',
+                    views: '903',
                     date: '22 Apr 2025',
                     type: 'gaming'
                 },
@@ -77,10 +77,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 },
                 {
                     id: 'Aawfz6sOHBQ',
-                    title: 'Takut Dosa Malah Pacaran #vtuber',
+                    title: 'Giliran pacaran malah gak takut dosa - Vtuber Uidandadan',
                     thumbnail: 'https://i.ytimg.com/vi/Aawfz6sOHBQ/maxresdefault.jpg',
                     duration: '00.46',
-                    views: '1,7k',
+                    views: '1,8k',
                     date: '16 Mar 2025',
                     type: 'script'
                 },
@@ -186,10 +186,10 @@ const xBtn = document.getElementById('x-order');
 
 function handleWhatsappOrder() {
     const phoneNumber = "081937194823";
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+    // const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    // window.open(url, '_blank');
 
-    // window.open(message)
+    window.open("http://discordapp.com/users/1338623044926832722")
 }
 
 xBtn.addEventListener('click', () => {
