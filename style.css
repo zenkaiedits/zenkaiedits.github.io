@@ -599,6 +599,10 @@ body {
     background-color: #14171A;
     color: #F5F8FA;
 }
+#kof-order {
+    background-color: #FF6433;
+    color: #F5F8FA;
+}
 
 
 #whatsapp-order:hover, #x-order:hover {

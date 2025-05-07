@@ -181,7 +181,7 @@ function onPlayerStateChange(event) {
 }
 
 const whatsappBtn = document.getElementById('whatsapp-order');
-// const emailBtn = document.getElementById('email-order');
+const kofBtn = document.getElementById('kof-order');
 const xBtn = document.getElementById('x-order');
 
 function handleWhatsappOrder() {
@@ -196,8 +196,12 @@ xBtn.addEventListener('click', () => {
     window.open('https://x.com/its_zenkai')
 })
 
+kofBtn.addEventListener('click', () => {
+    window.open(message, '_blank')
+})
+
 whatsappBtn.addEventListener('click', handleWhatsappOrder);
 
-// emailBtn.addEventListener('click', () =>  {
+// kofBtn.addEventListener('click', () =>  {
 //     window.open(`mailto:jasangeditsampit@anda.com?subject=Hello Zenkai👋&body=${encodeURIComponent(message)} \n // type what you need`)
 // })
