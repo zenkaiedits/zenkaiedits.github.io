@@ -40,6 +40,33 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: '-RjLl0ECcAI',
+                    title: 'making me SWEAT over here - Juno Ujuki',
+                    thumbnail: 'https://i.ytimg.com/vi/-RjLl0ECcAI/maxresdefault.jpg',
+                    duration: '00.29',
+                    views: '1,4k',
+                    date: '9 Juni 2025',
+                    type: 'gaming'
+                },
+                {
+                    id: 'thArqvAkNxQ',
+                    title: 'No balls - Juno Ujuki',
+                    thumbnail: 'https://i.ytimg.com/vi/thArqvAkNxQ/maxresdefault.jpg',
+                    duration: '00.27',
+                    views: '2,9k',
+                    date: '6 Jun 2025',
+                    type: 'gaming'
+                },
+                {
+                    id: 'CuIdqQbD-74',
+                    title: '5 dollars is 5 dollars - Juno Ujuki',
+                    thumbnail: 'https://i.ytimg.com/vi/CuIdqQbD-74/maxresdefault.jpg',
+                    duration: '00.30',
+                    views: '2,9k',
+                    date: '14 Mei 2025',
+                    type: 'gaming'
+                },
+                {
                     id: '8cY2IErCRYE',
                     title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
                     thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
