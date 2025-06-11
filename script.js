@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'No balls - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/thArqvAkNxQ/maxresdefault.jpg',
                     duration: '00.27',
-                    views: '2,9k',
+                    views: '154',
                     date: '6 Jun 2025',
                     type: 'gaming'
                 },
