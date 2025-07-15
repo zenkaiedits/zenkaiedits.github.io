@@ -40,6 +40,15 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: 'N-oRwwjOtvQ',
+                    title: 'mLOOP OF DOOM - Juno Ujuki',
+                    thumbnail: 'https://i.ytimg.com/vi/N-oRwwjOtvQ/maxresdefault.jpg',
+                    duration: '00.29',
+                    views: '1,2k',
+                    date: '9 Juli 2025',
+                    type: 'gaming'
+                },
+                {
                     id: '-RjLl0ECcAI',
                     title: 'making me SWEAT over here - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/-RjLl0ECcAI/maxresdefault.jpg',
