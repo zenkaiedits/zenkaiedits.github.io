@@ -40,8 +40,17 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: 'QFI3QbDGvm0',
+                    title: 'Vtuber  @AuteruTori   #anime #animasi',
+                    thumbnail: 'https://i.ytimg.com/vi/QFI3QbDGvm0/maxresdefault.jpg',
+                    duration: '00.51',
+                    views: '384',
+                    date: '11 Agt 2025',
+                    type: 'gaming'
+                },
+                {
                     id: 'N-oRwwjOtvQ',
-                    title: 'mLOOP OF DOOM - Juno Ujuki',
+                    title: 'LOOP OF DOOM - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/N-oRwwjOtvQ/maxresdefault.jpg',
                     duration: '00.29',
                     views: '1,2k',
@@ -241,3 +250,4 @@ whatsappBtn.addEventListener('click', handleWhatsappOrder);
 // kofBtn.addEventListener('click', () =>  {
 //     window.open(`mailto:jasangeditsampit@anda.com?subject=Hello Zenkai👋&body=${encodeURIComponent(message)} \n // type what you need`)
 // })
+
