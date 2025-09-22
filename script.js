@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Vtuber  @AuteruTori   #anime #animasi',
                     thumbnail: 'https://i.ytimg.com/vi/QFI3QbDGvm0/maxresdefault.jpg',
                     duration: '00.51',
-                    views: '384',
+                    views: '392',
                     date: '11 Agt 2025',
                     type: 'gaming'
                 },
@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'LOOP OF DOOM - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/N-oRwwjOtvQ/maxresdefault.jpg',
                     duration: '00.29',
-                    views: '1,2k',
+                    views: '1,3k',
                     date: '9 Juli 2025',
                     type: 'gaming'
                 },
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'making me SWEAT over here - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/-RjLl0ECcAI/maxresdefault.jpg',
                     duration: '00.29',
-                    views: '1,4k',
+                    views: '3k',
                     date: '9 Juni 2025',
                     type: 'gaming'
                 },
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'No balls - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/thArqvAkNxQ/maxresdefault.jpg',
                     duration: '00.27',
-                    views: '154',
+                    views: '318',
                     date: '6 Jun 2025',
                     type: 'gaming'
                 },
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: '5 dollars is 5 dollars - Juno Ujuki',
                     thumbnail: 'https://i.ytimg.com/vi/CuIdqQbD-74/maxresdefault.jpg',
                     duration: '00.30',
-                    views: '2,9k',
+                    views: '3k',
                     date: '14 Mei 2025',
                     type: 'gaming'
                 },
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
                     thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
                     duration: '00.34',
-                    views: '903',
+                    views: '919',
                     date: '22 Apr 2025',
                     type: 'gaming'
                 },
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Game Horor? tapi gak bisa pake mouse harus typing - vtuber Kaela Kovalskia',
                     thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '1,7k',
+                    views: '1,8k',
                     date: '9 Apr 2025',
                     type: 'gaming'
                 },
@@ -116,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR - Vtuber Kobo kanaeru',
                     thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
                     duration: '00.09',
-                    views: '26',
+                    views: '47',
                     date: '16 Mar 2025',
                     type: 'gaming'
                 },
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'Giliran pacaran malah gak takut dosa - Vtuber Uidandadan',
                     thumbnail: 'https://i.ytimg.com/vi/Aawfz6sOHBQ/maxresdefault.jpg',
                     duration: '00.46',
-                    views: '1,8k',
+                    views: '2,8k',
                     date: '16 Mar 2025',
                     type: 'script'
                 },
@@ -250,4 +250,5 @@ whatsappBtn.addEventListener('click', handleWhatsappOrder);
 // kofBtn.addEventListener('click', () =>  {
 //     window.open(`mailto:jasangeditsampit@anda.com?subject=Hello Zenkai👋&body=${encodeURIComponent(message)} \n // type what you need`)
 // })
+
 
