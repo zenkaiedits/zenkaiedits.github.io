@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://fontawesome.com/v4/assets/font-awesome/css/font-awesome.css">
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"type="module"></script>
     <title>Zenkai Edits</title>
+    <style>
+        #priceListSection {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -59,7 +64,7 @@
         </div>
 
             <!-- Price List Section -->
-            <div class="price-section" style="display: hidden;">
+            <div class="price-section" id="priceListSection" style="display: hidden;">
                 <div class="priceList">
                     <div class="title">What you get?</div>
                     <div class="list">
@@ -145,6 +150,54 @@
 
     <script src="script.js"></script>
     <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        // Function untuk menyembunyikan elemen
+function hidePriceList() {
+    const priceList = document.getElementById('priceListSection');
+    if (priceList) {
+        priceList.style.display = 'none';
+    }
+}
+
+// Function untuk melakukan pengecekan lokasi
+function checkAndHidePriceList() {
+    // URL API untuk mendapatkan info lokasi berdasarkan IP
+    const apiUrl = 'https://ipapi.co/json/'; 
+
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            // Kode negara (misalnya: "ID" untuk Indonesia)
+            const countryCode = data.country_code;
+
+            // Cek apakah kode negara adalah Indonesia
+            if (countryCode === 'ID') {
+                hidePriceList();
+                console.log('Price List disembunyikan untuk lokasi Indonesia.');
+            } else {
+                // Opsional: Jika bukan Indonesia, pastikan elemen ditampilkan (Jika sebelumnya di-hide oleh CSS)
+                const priceList = document.getElementById('priceListSection');
+                if (priceList) {
+                    priceList.style.display = 'block'; // atau 'flex' atau sesuai kebutuhan layout
+                    console.log('Price List ditampilkan untuk lokasi non-Indonesia (' + countryCode + ').');
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Gagal mendapatkan lokasi: ', error);
+            // PENTING: Jika gagal mendapatkan lokasi, lebih aman untuk tetap menampilkan Price List
+            // agar tidak menghalangi calon pelanggan dari negara lain.
+            const priceList = document.getElementById('priceListSection');
+            if (priceList) {
+                priceList.style.display = 'block'; 
+            }
+        });
+}
+
+// Jalankan pengecekan setelah dokumen selesai dimuat
+document.addEventListener('DOMContentLoaded', checkAndHidePriceList);
+    </script>
 </body>
 </html>
+
 
