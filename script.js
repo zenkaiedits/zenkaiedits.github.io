@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     title: 'hari pertama kerja sebagai penjaga tol...',
                     thumbnail: 'https://i.ytimg.com/vi/7bVi8u7-h_g/maxresdefault.jpg',
                     duration: '00.29',
-                    views: '1,7k',
+                    views: '2k',
                     date: '21 Nov 2025',
                     type: 'gaming'
                 },
@@ -259,6 +259,7 @@ whatsappBtn.addEventListener('click', handleWhatsappOrder);
 // kofBtn.addEventListener('click', () =>  {
 //     window.open(`mailto:jasangeditsampit@anda.com?subject=Hello Zenkai👋&body=${encodeURIComponent(message)} \n // type what you need`)
 // })
+
 
 
 
