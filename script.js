@@ -40,6 +40,15 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: '7bVi8u7-h_g',
+                    title: 'hari pertama kerja sebagai penjaga tol...',
+                    thumbnail: 'https://i.ytimg.com/vi/7bVi8u7-h_g/maxresdefault.jpg',
+                    duration: '00.29',
+                    views: '1k',
+                    date: '21 Nov 2025',
+                    type: 'gaming'
+                },
+                {
                     id: 'QFI3QbDGvm0',
                     title: 'Vtuber  @AuteruTori   #anime #animasi',
                     thumbnail: 'https://i.ytimg.com/vi/QFI3QbDGvm0/maxresdefault.jpg',
@@ -250,5 +259,6 @@ whatsappBtn.addEventListener('click', handleWhatsappOrder);
 // kofBtn.addEventListener('click', () =>  {
 //     window.open(`mailto:jasangeditsampit@anda.com?subject=Hello Zenkai👋&body=${encodeURIComponent(message)} \n // type what you need`)
 // })
+
 
 
