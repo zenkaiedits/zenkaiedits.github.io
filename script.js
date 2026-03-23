@@ -40,6 +40,77 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: 'N5EzY7G9UUI',
+                    title: 'Souta Fav music?',
+                    thumbnail: 'https://i.ytimg.com/vi/N5EzY7G9UUI/maxresdefault.jpg',
+                    duration: '01.23',
+                    views: '954',
+                    date: '19 Mar',
+                    type: 'gaming'
+                },
+                {
+                    id: 'G1SvHzJtJTI',
+                    title: 'Souta Secret Feature?',
+                    thumbnail: 'https://i.ytimg.com/vi/G1SvHzJtJTI/maxresdefault.jpg',
+                    duration: '00.39',
+                    views: '350',
+                    date: '16 Mar 2026',
+                    type: 'gaming'
+                },
+                {
+                    id: 'eQibfmnSweQ',
+                    title: 'yupoup',
+                    thumbnail: 'https://i.ytimg.com/vi/eQibfmnSweQ/maxresdefault.jpg',
+                    duration: '00.24',
+                    views: '136',
+                    date: '16 Mar 2026',
+                    type: 'gaming'
+                },
+                {
+                    id: 'oLPhgNZffMU',
+                    title: 'Souta Teto Brainrot',
+                    thumbnail: 'https://i.ytimg.com/vi/oLPhgNZffMU/maxresdefault.jpg',
+                    duration: '00.47',
+                    views: '650',
+                    date: '15 Mar 2026',
+                    type: 'gaming'
+                },{
+                    id: '4q5UdJT3uDA',
+                    title: 'Souta updates Time',
+                    thumbnail: 'https://i.ytimg.com/vi/4q5UdJT3uDA/maxresdefault.jpg',
+                    duration: '00.57',
+                    views: '200',
+                    date: '12 Mar 2026',
+                    type: 'gaming'
+                },
+                {
+                    id: 'SW8pDAVmcc4',
+                    title: 'Meet lil Souta',
+                    thumbnail: 'https://i.ytimg.com/vi/SW8pDAVmcc4/maxresdefault.jpg',
+                    duration: '00.25',
+                    views: '1,7k',
+                    date: '8 Mar 2026',
+                    type: 'gaming'
+                },
+                {
+                    id: 'opw-cxnQYKA',
+                    title: 'Amoung Us with Chat',
+                    thumbnail: 'https://i.ytimg.com/vi/opw-cxnQYKA/maxresdefault.jpg',
+                    duration: '00.58',
+                    views: '1,3k',
+                    date: '7 Mar 2026',
+                    type: 'gaming'
+                },
+                {
+                    id: '7xDdFNZjFTw',
+                    title: 'Ohakuma!! Im still alive #vtuber #Souta #envtuber #jpvtuber #vacademia ',
+                    thumbnail: 'https://i.ytimg.com/vi/7xDdFNZjFTw/maxresdefault.jpg',
+                    duration: '00.39',
+                    views: '1,2k',
+                    date: '4 Mar 2026',
+                    type: 'gaming'
+                },
+                {
                     id: '7bVi8u7-h_g',
                     title: 'hari pertama kerja sebagai penjaga tol...',
                     thumbnail: 'https://i.ytimg.com/vi/7bVi8u7-h_g/maxresdefault.jpg',
