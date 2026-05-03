@@ -40,9 +40,18 @@ document.addEventListener('DOMContentLoaded', function() {
             // Mock data - replace with actual API response
             const mockVideos = [
                 {
+                    id: 'VJc3gcNXkYI',
+                    title: 'BIRTHDAY STREAM #vividsouta #bearwithme #vtuber #birthday',
+                    thumbnail: 'https://i.ytimg.com/vi/VJc3gcNXkYI/mqdefault.jpg',
+                    duration: '00:35',
+                    views: '1,4k',
+                    date: '30 Apr',
+                    type: 'gaming'
+                },
+                {
                     id: 'N5EzY7G9UUI',
                     title: 'Souta Fav music?',
-                    thumbnail: 'https://i.ytimg.com/vi/N5EzY7G9UUI/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/N5EzY7G9UUI/mqdefault.jpg',
                     duration: '01.23',
                     views: '954',
                     date: '19 Mar',
@@ -51,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'G1SvHzJtJTI',
                     title: 'Souta Secret Feature?',
-                    thumbnail: 'https://i.ytimg.com/vi/G1SvHzJtJTI/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/G1SvHzJtJTI/mqdefault.jpg',
                     duration: '00.39',
                     views: '350',
                     date: '16 Mar 2026',
@@ -60,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'eQibfmnSweQ',
                     title: 'yupoup',
-                    thumbnail: 'https://i.ytimg.com/vi/eQibfmnSweQ/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/eQibfmnSweQ/mqdefault.jpg',
                     duration: '00.24',
                     views: '136',
                     date: '16 Mar 2026',
@@ -69,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'oLPhgNZffMU',
                     title: 'Souta Teto Brainrot',
-                    thumbnail: 'https://i.ytimg.com/vi/oLPhgNZffMU/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/oLPhgNZffMU/mqdefault.jpg',
                     duration: '00.47',
                     views: '650',
                     date: '15 Mar 2026',
@@ -77,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 },{
                     id: '4q5UdJT3uDA',
                     title: 'Souta updates Time',
-                    thumbnail: 'https://i.ytimg.com/vi/4q5UdJT3uDA/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/4q5UdJT3uDA/mqdefault.jpg',
                     duration: '00.57',
                     views: '200',
                     date: '12 Mar 2026',
@@ -86,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'SW8pDAVmcc4',
                     title: 'Meet lil Souta',
-                    thumbnail: 'https://i.ytimg.com/vi/SW8pDAVmcc4/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/SW8pDAVmcc4/mqdefault.jpg',
                     duration: '00.25',
                     views: '1,7k',
                     date: '8 Mar 2026',
@@ -95,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'opw-cxnQYKA',
                     title: 'Amoung Us with Chat',
-                    thumbnail: 'https://i.ytimg.com/vi/opw-cxnQYKA/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/opw-cxnQYKA/mqdefault.jpg',
                     duration: '00.58',
                     views: '1,3k',
                     date: '7 Mar 2026',
@@ -104,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: '7xDdFNZjFTw',
                     title: 'Ohakuma!! Im still alive #vtuber #Souta #envtuber #jpvtuber #vacademia ',
-                    thumbnail: 'https://i.ytimg.com/vi/7xDdFNZjFTw/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/7xDdFNZjFTw/mqdefault.jpg',
                     duration: '00.39',
                     views: '1,2k',
                     date: '4 Mar 2026',
@@ -113,7 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: '7bVi8u7-h_g',
                     title: 'hari pertama kerja sebagai penjaga tol...',
-                    thumbnail: 'https://i.ytimg.com/vi/7bVi8u7-h_g/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/7bVi8u7-h_g/mqdefault.jpg',
                     duration: '00.29',
                     views: '2k',
                     date: '21 Nov 2025',
@@ -122,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'QFI3QbDGvm0',
                     title: 'Vtuber  @AuteruTori   #anime #animasi',
-                    thumbnail: 'https://i.ytimg.com/vi/QFI3QbDGvm0/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/QFI3QbDGvm0/mqdefault.jpg',
                     duration: '00.51',
                     views: '392',
                     date: '11 Agt 2025',
@@ -131,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'N-oRwwjOtvQ',
                     title: 'LOOP OF DOOM - Juno Ujuki',
-                    thumbnail: 'https://i.ytimg.com/vi/N-oRwwjOtvQ/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/N-oRwwjOtvQ/mqdefault.jpg',
                     duration: '00.29',
                     views: '1,3k',
                     date: '9 Juli 2025',
@@ -140,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: '-RjLl0ECcAI',
                     title: 'making me SWEAT over here - Juno Ujuki',
-                    thumbnail: 'https://i.ytimg.com/vi/-RjLl0ECcAI/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/-RjLl0ECcAI/mqdefault.jpg',
                     duration: '00.29',
                     views: '3k',
                     date: '9 Juni 2025',
@@ -149,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'thArqvAkNxQ',
                     title: 'No balls - Juno Ujuki',
-                    thumbnail: 'https://i.ytimg.com/vi/thArqvAkNxQ/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/thArqvAkNxQ/mqdefault.jpg',
                     duration: '00.27',
                     views: '318',
                     date: '6 Jun 2025',
@@ -158,7 +167,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'CuIdqQbD-74',
                     title: '5 dollars is 5 dollars - Juno Ujuki',
-                    thumbnail: 'https://i.ytimg.com/vi/CuIdqQbD-74/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/CuIdqQbD-74/mqdefault.jpg',
                     duration: '00.30',
                     views: '3k',
                     date: '14 Mei 2025',
@@ -167,7 +176,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: '8cY2IErCRYE',
                     title: 'Anya explaind Bijou how "Foot Fetish" works! - vtuber Koseki Bijou and Anya Melfisa',
-                    thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/8cY2IErCRYE/mqdefault.jpg',
                     duration: '00.34',
                     views: '919',
                     date: '22 Apr 2025',
@@ -176,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'q_OuImZgKTQ',
                     title: 'Game Horor? tapi gak bisa pake mouse harus typing - vtuber Kaela Kovalskia',
-                    thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/q_OuImZgKTQ/mqdefault.jpg',
                     duration: '00.09',
                     views: '1,8k',
                     date: '9 Apr 2025',
@@ -185,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'BE7j4uN8FnM',
                     title: 'Telur Joget - 2d Riging Animation on Davinci Resolve',
-                    thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/BE7j4uN8FnM/mqdefault.jpg',
                     duration: '00.09',
                     views: '2,1k',
                     date: '4 Apr 2025',
@@ -194,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'scmAKJSLf2o',
                     title: 'Khodam Kalian Apa Ges? kalo aku TOREN AIR - Vtuber Kobo kanaeru',
-                    thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/scmAKJSLf2o/mqdefault.jpg',
                     duration: '00.09',
                     views: '47',
                     date: '16 Mar 2025',
@@ -203,7 +212,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 {
                     id: 'Aawfz6sOHBQ',
                     title: 'Giliran pacaran malah gak takut dosa - Vtuber Uidandadan',
-                    thumbnail: 'https://i.ytimg.com/vi/Aawfz6sOHBQ/maxresdefault.jpg',
+                    thumbnail: 'https://i.ytimg.com/vi/Aawfz6sOHBQ/mqdefault.jpg',
                     duration: '00.46',
                     views: '2,8k',
                     date: '16 Mar 2025',
@@ -231,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
         feedContainer.innerHTML = videos.map(video => `
             <div class="video-card" data-type="${video.type}">
                 <div class="video-thumbnail" data-video-id="${video.id}">
-                    <img src="https://img.youtube.com/vi/${video.id}/maxresdefault.jpg" alt="${video.title}">
+                    <img src="https://img.youtube.com/vi/${video.id}/mqdefault.jpg" alt="${video.title}">
                     <div class="play-button">
                         <i class="fas fa-play"></i>
                     </div>
